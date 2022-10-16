@@ -13,35 +13,13 @@
     <p>'Don't got much for today loool, Fall Break was nice...</p>
     <p>Here's Oreo, bye bye</p>
     <img src="https://media.discordapp.net/attachments/944421580275077181/1030956122250686554/IMG_5454.jpg?width=789&height=1051" alt="oreo being oreo" height="500" width="450">
-    <div class="comment">
-        <textarea id="title" type="text "rows="10" cols="37" onkeyup="Allow()" placeholder="Write a comment..."></textarea>
-        <input type="submit" value="Post" onclick="insert()" style="width:100px;" /></form>
-        </div>
-        <div id="display"></div>
-        <script type="text/javascript">
-        var titles = [];
-        var titleInput = document.getElementById("title");
-        var messageBox = document.getElementById("display");
-        function Allow()
-        {
-        if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
-        {
-        user.title.value="";
-        alert("Only enter alphabetical stuff");
-        }
-        window.location.reload()
-        }
-        function insert () {
-        titles.push(titleInput.value);
-        clearAndShow();
-        }
-        function clearAndShow ()
-        {
-        titleInput.value = "";
-        messageBox.innerHTML = "";
-        messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
-        }
-        </script>
+    <input type="text" id="comment-box" placeholder="Enter comment">
+    <button id="post">Post</button>
+    <ul id="unordered">
+       
+   </ul>
+   
+    <script src="code.js"></script>
     <form action="https://tra-ins.github.io/trains">
         <input type="submit" value="Go back" style="height: 40px; width: 100px; font-size: 17px;">
         </form>
