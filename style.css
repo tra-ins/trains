@@ -27,3 +27,8 @@ hr.hr1 {
 .ol {
     color:rgb(225, 139, 68)
 }
+.div1 {
+    width: 450px;
+    border: 10px solid rgb(255, 193, 142);
+    padding: 5px;
+}
