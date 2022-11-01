@@ -11,7 +11,7 @@ h4 {
     color: rgb(190, 105, 34);
 }
 div {
-    width: 300px;
+    width: 350px;
     border: 10px solid rgb(255, 193, 142);
     padding: 5px;
 }
@@ -31,4 +31,7 @@ hr.hr1 {
     width: 450px;
     border: 10px solid rgb(255, 193, 142);
     padding: 5px;
+}
+a {
+    font-size: 17px;
 }
